@@ -15,10 +15,12 @@ int main()
     // else if 
         if ( marks>=90 ) {
             cout<<"A"<<endl ;
-        } else-if ( marks>=80 ) {
+        } else if ( marks>=80 ) {
             cout<<"B"<<endl;
-        } else {
+        } else if ( marks>=33) {
             cout<<"C"<<endl ;
-        }  
+        } else {
+            cout<<"fail" ;
+        }
     return 0 ;
 }

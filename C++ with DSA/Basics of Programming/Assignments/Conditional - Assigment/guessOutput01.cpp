@@ -1,3 +1,4 @@
+// ques 03 - guess the output -> right
 #include <iostream>
 using namespace std ;
 int main () 
