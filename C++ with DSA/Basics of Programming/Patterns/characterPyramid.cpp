@@ -14,8 +14,8 @@ int main()
     {
         for(int j=0 ;j<=i;j++)
         {
-            cout<<ch<<" ";
-            ch++ ;
+            cout<<ch++<<" ";
+
         }
         cout<<endl;
     }
