@@ -9,5 +9,13 @@ int main(){
 
     cout<< &a <<" = "<<ptr<<endl;
     cout<< &pi <<" = "<<ptr2<<endl;
+
+    // size of pointers
+    cout<< sizeof(ptr)<<endl;
+    cout<< sizeof(ptr)<<endl;
+    
+    //pointer to pointer
+    int **pptr = &ptr ;
+    cout<<&ptr<<" = "<<pptr<<endl;
     return 0 ;
 }
