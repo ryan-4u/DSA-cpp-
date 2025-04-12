@@ -17,11 +17,17 @@ void spiralMatrix( int arr[][4], int n , int m){
         eCol-- ;
         //bottom
         for(int i=eCol ; i>=sCol ; i--){
+            if( eRow == sRow ){
+                break;
+            }
             cout<<arr[eRow][i]<<" ";
         }
         eRow-- ;
         //left
         for(int i=eRow ;i>=sRow;i--){
+            if( eCol == sCol ){
+                break;
+            }
             cout<<arr[i][sCol]<<" ";
         }
         sCol++ ;
