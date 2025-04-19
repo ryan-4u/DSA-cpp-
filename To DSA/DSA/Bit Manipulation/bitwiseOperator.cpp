@@ -7,5 +7,4 @@ int main(){
     cout<<"Biwise XOR of 3 and 5: "<< ( 3 ^ 5 ) << endl ; // 6
 
     return 0 ;
-
 }
