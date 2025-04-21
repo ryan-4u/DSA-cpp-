@@ -31,6 +31,16 @@ class Car {
             mileage = new int ;
             *mileage = *original.mileage ;
         }
+
+    // destructor 
+        ~Car(){
+            // static memory deleted automatically...
+            cout<<"Deleting object...\n" ;
+            if( mileage != NULL){
+                delete mileage ;
+                mileage = NULL ;
+            }
+        }    
 };
 
 int main(){
